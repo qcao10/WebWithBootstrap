@@ -1,12 +1,140 @@
-/*duke-style*/
-a {
-	font-size:48px;
+body {
+  color: #4a4a4a;
 }
 
 h1 {
-	font-size: 36px;
+  color: #000000;
+  font-size: 36px;
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+h2 {
+  color: #000000;
 }
 
 p {
-	font-size:20px;
+  font-size: 20px;
+}
+
+footer {
+  background-color: white;
+  padding: 35px 0;
+}
+
+.footer-logo {
+  height: 22px;
+  margin-bottom: 3px;
+  width: 22px;
+}
+
+section {
+  width: 100%;
+}
+
+section {
+  padding: 60px 0 40px;
+}
+
+@media (min-width: 576px) {
+  section {
+    padding: 100px 0;
+  }
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+.navbar-brand img {
+  height: 46px;
+  margin-right: 8px;
+  width: 46px;
+}
+
+.nav-item {
+  margin: 10px 16px;
+}
+
+.first-section {
+  background-color: #F0F8FF;
+  background: url("img/Duke1.jpg") no-repeat center center;
+  background-size: 100%;
+  padding: 140px 0 100px;
+  background-size: cover;
+}
+
+@media (min-width: 576px) {
+  .first-section {
+    padding: 200px 0;
+  }
+}
+
+.second-section {
+  background-color: white;
+}
+
+.second-section img {
+  margin-bottom: 35px;
+}
+
+@media (min-width: 768px) {
+  .second-section img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .second-section img {
+    margin-bottom: 0;
+  }
+}
+
+.second-section ul {
+  background-color: #F7F9FC;
+  margin-top: 25px;
+  padding: 30px 55px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+.third-section {
+  background-color: #FBFBFB;
+}
+
+.third-section p {
+  color: #9DA2A6;
+}
+
+.third-section img {
+  height: 75px;
+  margin: 25px 0 10px;
+  width: 75px;
+}
+
+.fourth-section {
+  background-color: white;
+}
+
+.fourth-section img {
+  margin-top: 35px;
+}
+
+@media (min-width: 768px) {
+  .fourth-section img {
+    margin-top: 0;
+  }
+}
+
+.fifth-section {
+  background-color: #F0F8FF;
+  background-image: url("../images/cattern.png");
+  background-repeat: repeat;
+  background-size: 192px 192px;
 }
